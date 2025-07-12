@@ -1,0 +1,11 @@
+{
+  "prompt": "sexy woman in shower, wearing translucent white shirt, steam, cinematic lighting, backlight, wet hair, 8k realistic photo",
+  "negative_prompt": "nude, topless, explicit, exposed breast, nsfw, cartoon, watermark, blur",
+  "steps": 28,
+  "cfg_scale": 7.5,
+  "width": 768,
+  "height": 1152,
+  "sampler_index": "DPM++ 2M SDE",
+  "batch_size": 6,
+  "category": "shower"
+}

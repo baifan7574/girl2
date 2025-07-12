@@ -1,0 +1,21 @@
+{
+  "model": "realisticVisionV60B1_v51HyperVAE",
+  "lora": "",
+  "width": 512,
+  "height": 768,
+  "steps": 20,
+  "cfg_scale": 7,
+  "sampler_index": "DPM++ 2M",
+  "hires_fix": true,
+  "hires_upscaler": "Latent",
+  "hires_scale": 1.5,
+  "hires_denoising_strength": 0.55,
+  "refiner": false,
+  "batch_size": 6,
+  "total_images": 50,
+  "seed": -1,
+  "prompt": "luxurious woman wearing black dress with pearl necklace, sitting with champagne glass, moody ambient light, elegant seductive look, upscale interior, high quality cinematic photo",
+  "negative_prompt": "nude, cleavage, blurry, cartoon, unrealistic, watermark, poorly drawn",
+  "output_dir": "../luxury",
+  "category": "luxury"
+}
