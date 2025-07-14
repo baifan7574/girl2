@@ -1,0 +1,2 @@
+python generate_full_with_ads.py
+pause

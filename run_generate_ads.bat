@@ -1,2 +1,0 @@
-python generate_gallery_with_ads.py
-pause
