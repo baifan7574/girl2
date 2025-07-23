@@ -1,4 +1,3 @@
-
 import os
 import math
 from datetime import datetime
@@ -83,27 +82,28 @@ def generate_gallery(folder):
                 f.write(f'<a href="page{page_num + 2}.html">Next →</a>')
             f.write("</div>\n</body>\n</html>")
 
-# ✅ 修复后的 sitemap 生成函数
-def generate_sitemap(folders, base_url="https://g2.gogamefun.com"):
+def generate_sitemap(folders):
     with open("sitemap.xml", "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        # 加入分页页面
         for folder in folders:
-            images = [x for x in os.listdir(folder) if x.endswith(".jpg")]
-            if not images:
-                continue  # 跳过空目录
-            pages = math.ceil(len(images) / IMAGES_PER_PAGE)
+            total = len([x for x in os.listdir(folder) if x.endswith(".jpg")])
+            pages = math.ceil(total / IMAGES_PER_PAGE)
             for i in range(1, pages + 1):
-                url = f"{base_url}/{folder}/page{i}.html"
-                f.write(f"<url><loc>{url}</loc></url>\n")
-        f.write("</urlset>\n")
+                f.write(f"<url><loc>{folder}/page{i}.html</loc></url>\n")
+        # 加入 image_*.html 页面
+        image_pages = [f for f in os.listdir() if f.startswith("image_") and f.endswith(".html")]
+        for page in image_pages:
+            f.write(f"<url><loc>{page}</loc></url>\n")
+        f.write("</urlset>")
 
 def main():
     folders = [d for d in os.listdir() if os.path.isdir(d)]
     for folder in folders:
         generate_gallery(folder)
-    generate_sitemap(folders, base_url="https://g2.gogamefun.com")
-    print("✅ Gallery pages and sitemap generated successfully.")
+    generate_sitemap(folders)
+    print("✅ Gallery pages, image pages, and sitemap generated successfully.")
 
 if __name__ == "__main__":
     main()
