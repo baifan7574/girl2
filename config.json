@@ -1,4 +1,5 @@
 {
   "domain": "https://g2.gogamefun.com",
-  "category_css": "style.css"
+  "category_css": "style.css",
+  "ad_code": "<script type='text/javascript'>var uid = '492091'; var wid = '743504'; var pop_tag = document.createElement('script'); pop_tag.src='//cdn.popcash.net/show.js'; document.body.appendChild(pop_tag); pop_tag.onerror = function() { pop_tag = document.createElement('script'); pop_tag.src='//cdn2.popcash.net/show.js'; document.body.appendChild(pop_tag); };</script>"
 }
