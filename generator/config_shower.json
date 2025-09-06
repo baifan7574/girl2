@@ -1,5 +1,5 @@
 {
-  "prompt": "sexy woman in shower, wearing translucent white shirt, steam, cinematic lighting, backlight, wet hair, 8k realistic photo",
+  "prompt": "1girl, solo, single subject, one woman only\nphoto-realistic, ultra-detailed, cinematic portrait, 9:16 vertical, \nbeautiful young woman, elegant and attractive, natural beauty, \nunique facial features, subtle asymmetry allowed, realistic skin texture, \nhighly detailed eyes, sharp iris, glossy lips, natural nose, \nnatural expression, soft makeup, \nsoft studio light, rim light on hair, warm skin tone, \nprofessional photography style, depth of field, cinematic color grading, \nsharp focus, award-winning portrait photo, bath aesthetic photo, bedroom photography ideas, bathroom aesthetic photos, vintage faded look, soft curls, deep v neckline, cinematic teal and orange, warm golden glow, sensual vibe, elegant posture, tasteful composition",
   "negative_prompt": "nude, topless, explicit, exposed breast, nsfw, cartoon, watermark, blur",
   "steps": 28,
   "cfg_scale": 7.5,

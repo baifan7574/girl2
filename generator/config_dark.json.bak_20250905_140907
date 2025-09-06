@@ -1,0 +1,11 @@
+{
+  "prompt": "beautiful realistic woman, elegant black dress, cinematic lighting, soft skin, rich shadows, high-res photo",
+  "negative_prompt": "ugly, cartoon, lowres, blur, nsfw, nude, bad hands, watermark",
+  "steps": 28,
+  "cfg_scale": 7.5,
+  "width": 768,
+  "height": 1152,
+  "sampler_index": "DPM++ 2M SDE",
+  "batch_size": 6,
+  "category": "dark"
+}
