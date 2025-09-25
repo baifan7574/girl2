@@ -1,3 +1,4 @@
+[OK] D:\项目\girl2\404.html
 [OK] D:\项目\girl2\about.html
 [OK] D:\项目\girl2\auto_homepage.html
 [OK] D:\项目\girl2\bedroom.html
@@ -4090,6 +4091,32 @@
 [OK] D:\项目\girl2\soft\single\20250710_124212_48.html
 [OK] D:\项目\girl2\soft\single\20250710_124257_49.html
 [OK] D:\项目\girl2\soft\single\20250710_124257_50.html
+[OK] D:\项目\girl2\tags\cozy-bedroom.html
+[OK] D:\项目\girl2\tags\cozy-bedroom_2.html
+[OK] D:\项目\girl2\tags\cozy-bedroom_3.html
+[OK] D:\项目\girl2\tags\cozy-bedroom_4.html
+[OK] D:\项目\girl2\tags\moody-tones.html
+[OK] D:\项目\girl2\tags\moody-tones_2.html
+[OK] D:\项目\girl2\tags\moody-tones_3.html
+[OK] D:\项目\girl2\tags\morning-light.html
+[OK] D:\项目\girl2\tags\morning-light_2.html
+[OK] D:\项目\girl2\tags\morning-light_3.html
+[OK] D:\项目\girl2\tags\morning-light_4.html
+[OK] D:\项目\girl2\tags\morning-light_5.html
+[OK] D:\项目\girl2\tags\morning-light_6.html
+[OK] D:\项目\girl2\tags\morning-light_7.html
+[OK] D:\项目\girl2\tags\morning-light_8.html
+[OK] D:\项目\girl2\tags\natural-look.html
+[OK] D:\项目\girl2\tags\natural-look_2.html
+[OK] D:\项目\girl2\tags\soft-portraits.html
+[OK] D:\项目\girl2\tags\soft-portraits_2.html
+[OK] D:\项目\girl2\tags\soft-portraits_3.html
+[OK] D:\项目\girl2\tags\soft-portraits_4.html
+[OK] D:\项目\girl2\tags\soft-portraits_5.html
+[OK] D:\项目\girl2\tags\soft-portraits_6.html
+[OK] D:\项目\girl2\tags\soft-portraits_7.html
+[OK] D:\项目\girl2\tags\soft-portraits_8.html
+[OK] D:\项目\girl2\tags\soft-portraits_9.html
 [OK] D:\项目\girl2\uniform\20250706_151406_01.html
 [OK] D:\项目\girl2\uniform\20250706_151406_02.html
 [OK] D:\项目\girl2\uniform\20250706_151406_03.html
@@ -4441,4 +4468,4 @@
 [OK] D:\项目\girl2\uniform\single\20250710_130117_48.html
 [OK] D:\项目\girl2\uniform\single\20250710_130202_49.html
 [OK] D:\项目\girl2\uniform\single\20250710_130202_50.html
-[PING] 提交 sitemap 到 Google: https://www.google.com/ping?sitemap=https://g2.gogamefun.com/sitemap.xml
+[WARN] 提交 sitemap 失败: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=10)
