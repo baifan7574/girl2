@@ -15,7 +15,7 @@
 [OK] D:\项目\girl2\fitness.html
 [OK] D:\项目\girl2\fitness_page2.html
 [OK] D:\项目\girl2\fitness_page3.html
-[ERROR] D:\项目\girl2\googleaf4d2d986493bb7e.html: 'NoneType' object has no attribute 'append'
+[OK] D:\项目\girl2\googleaf4d2d986493bb7e.html
 [OK] D:\项目\girl2\image_bedroom_0001.html
 [OK] D:\项目\girl2\image_bedroom_0002.html
 [OK] D:\项目\girl2\image_bedroom_0003.html
@@ -4098,7 +4098,15 @@
 [OK] D:\项目\girl2\tags\moody-tones.html
 [OK] D:\项目\girl2\tags\moody-tones_2.html
 [OK] D:\项目\girl2\tags\moody-tones_3.html
+[OK] D:\项目\girl2\tags\moody-tones_4.html
 [OK] D:\项目\girl2\tags\morning-light.html
+[OK] D:\项目\girl2\tags\morning-light_10.html
+[OK] D:\项目\girl2\tags\morning-light_11.html
+[OK] D:\项目\girl2\tags\morning-light_12.html
+[OK] D:\项目\girl2\tags\morning-light_13.html
+[OK] D:\项目\girl2\tags\morning-light_14.html
+[OK] D:\项目\girl2\tags\morning-light_15.html
+[OK] D:\项目\girl2\tags\morning-light_16.html
 [OK] D:\项目\girl2\tags\morning-light_2.html
 [OK] D:\项目\girl2\tags\morning-light_3.html
 [OK] D:\项目\girl2\tags\morning-light_4.html
@@ -4106,9 +4114,17 @@
 [OK] D:\项目\girl2\tags\morning-light_6.html
 [OK] D:\项目\girl2\tags\morning-light_7.html
 [OK] D:\项目\girl2\tags\morning-light_8.html
+[OK] D:\项目\girl2\tags\morning-light_9.html
 [OK] D:\项目\girl2\tags\natural-look.html
 [OK] D:\项目\girl2\tags\natural-look_2.html
 [OK] D:\项目\girl2\tags\soft-portraits.html
+[OK] D:\项目\girl2\tags\soft-portraits_10.html
+[OK] D:\项目\girl2\tags\soft-portraits_11.html
+[OK] D:\项目\girl2\tags\soft-portraits_12.html
+[OK] D:\项目\girl2\tags\soft-portraits_13.html
+[OK] D:\项目\girl2\tags\soft-portraits_14.html
+[OK] D:\项目\girl2\tags\soft-portraits_15.html
+[OK] D:\项目\girl2\tags\soft-portraits_16.html
 [OK] D:\项目\girl2\tags\soft-portraits_2.html
 [OK] D:\项目\girl2\tags\soft-portraits_3.html
 [OK] D:\项目\girl2\tags\soft-portraits_4.html
@@ -4468,4 +4484,4 @@
 [OK] D:\项目\girl2\uniform\single\20250710_130117_48.html
 [OK] D:\项目\girl2\uniform\single\20250710_130202_49.html
 [OK] D:\项目\girl2\uniform\single\20250710_130202_50.html
-[WARN] 提交 sitemap 失败: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=10)
+[PING] 提交 sitemap 到 Google: https://www.google.com/ping?sitemap=https://g2.gogamefun.com/sitemap.xml
